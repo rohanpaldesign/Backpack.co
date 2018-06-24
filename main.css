@@ -1,0 +1,589 @@
+/*
+  //// //// /  /     /     /   /      /////    //     /
+  / /  /  / /  /    / /    //  /      /   /   /  /    /
+  //   /  / ////   /////   / / /      /////  /////    /
+  / /  /  / /  /  /     /  /  //      /     /     /   /
+  /  / //// /  / /       / /   /      /    /       /  /////
+
+All Rights Reserved ©2018 Rohan Pal
+ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* START */
+/* SCROLLBAR */
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: #C1C1C1;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #2B618C;
+}
+/* SCROLLBAR END */
+
+/* ========= PARALLAX CSS START ========== */
+
+.head-parallax {
+  background-image: url("images/main-head.jpg");
+  height: 640px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ========= PARALLAX CSS END ========== */
+
+#logo{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 40px;
+  color: white;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.sign-up-button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Source Sans Pro, sans-serif;
+  box-shadow: 0px 5px 10px #1C3F55;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+/*BUTTON HOVER*/
+.sign-up-button:hover {
+  background-color: #2B618C;
+  box-shadow: 0px 8px 12px #1C3F55;
+  color: #fff;
+  transform: translateY(-7px);
+}
+/*BUTTON HOVER*/
+
+.head-paragraph{
+  position: absolute;
+  top: 370px;
+  left: 60px;
+  color: white;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+}
+#head-blue{
+  position: absolute;
+  top: 430px;
+  left: 60px;
+}
+
+.head-blue{
+  font-size: 35px;
+  font-family: Source Sans Pro, sans-serif;
+  color: #2B618C;
+  margin-top: 8px;
+}
+
+/*==================
+  FEATURES SECTION
+  ================== */
+.features{
+  width: 100%;
+  height: 600px;
+}
+
+#features-blue {
+  position: absolute;
+  top: 700px;
+  left: 40%;
+}
+
+.features-grey {
+  position: absolute;
+  top: 740px;
+  left: 260px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 26px;
+  color: #6B6262;
+  margin-top: 8px;
+}
+
+.main-features-icon{
+  width: 80px;
+}
+
+#time{
+  position: absolute;
+  top: 820px;
+  left: 220px;
+}
+
+#plane{
+  position: absolute;
+  top: 820px;
+  left: 610px;
+}
+
+#fountain{
+  position: absolute;
+  top: 820px;
+  left: 1000px;
+}
+
+#usdollar{
+  position: absolute;
+  top: 1020px;
+  left: 380px;
+}
+
+#question{
+  position: absolute;
+  top: 1020px;
+  left: 800px;
+}
+
+.features-text{
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 25px;
+  color: black;
+  width: 250px;
+  text-align: center;
+}
+
+#features-text-1 {
+  position: absolute;
+  top: 902px;
+  left: 145px;
+  line-height: 29px;
+}
+
+#features-text-2 {
+  position: absolute;
+  top: 902px;
+  left: 525px;
+  line-height: 29px;
+}
+
+#features-text-3 {
+  position: absolute;
+  top: 902px;
+  left: 915px;
+  line-height: 29px;
+}
+
+#features-text-4 {
+  position: absolute;
+  top: 1110px;
+  left: 295px;
+  line-height: 29px;
+}
+
+#features-text-5 {
+  position: absolute;
+  top: 1110px;
+  left: 715px;
+  line-height: 29px;
+}
+
+/* =============
+   TOP DESTINATIONS
+   ================= */
+
+.top-destinations{
+  background-color: black;
+  position: absolute;
+  top: 1320px;
+  width: 100%;
+  height: 2600px;
+}
+
+.main-destinations-head{
+  position: absolute;
+  top: 60px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 30px;
+  left: 40%;
+  color: white;
+}
+
+/* ===== Norway ====== */
+
+.places-title {
+  color: white;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 30px;
+}
+
+#norway-title{
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
+
+.main-norway{
+  max-width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 900px;
+  transition: 0.25s all ease-in-out;
+}
+
+.main-norway:hover {
+  transform: scale(1.25, 1.25);
+  cursor: pointer;
+}
+
+.paragraph{
+  color: white;
+  max-width: 600px;
+  margin-top: 10px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #AFAEAE;
+}
+
+#norway-para{
+  position: absolute;
+  top: 340px;
+  left: 150px;
+}
+
+.button-blue{
+  background-color: #2B618C;
+  width: 250px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#norway-button{
+  position: absolute;
+  top: 545px;
+  left: 150px;
+}
+
+.button-blue:hover {
+    background-color: #2B618C;
+    box-shadow: 0px 8px 12px #0e0f0f;
+    color: #fff;
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+/*======== Rhode Island ==========*/
+
+.main-ri{
+  max-width: 300px;
+  position: absolute;
+  top: 800px;
+  left: 150px;
+  transition: 0.25s all ease-in-out;
+}
+
+.main-ri:hover {
+  transform: scale(1.25, 1.25);
+  cursor: pointer;
+}
+
+#ri-title{
+  position: absolute;
+  top: 880px;
+  left: 600px;
+}
+
+#ri-para{
+  position: absolute;
+  top: 920px;
+  left: 600px;
+}
+
+#ri-button{
+  position: absolute;
+  top: 1090px;
+  left: 600px;
+  margin-top: 5px;
+}
+
+/*  ========== Sanghai =========== */
+
+.main-sanghai{
+  max-width: 300px;
+  position: absolute;
+  top: 1400px;
+  left: 900px;
+  transition: 0.25s all ease-in-out;
+}
+
+.main-sanghai:hover {
+  transform: scale(1.25, 1.25);
+  cursor: pointer;
+}
+
+#sanghai-title{
+  position: absolute;
+  top: 1480px;
+  left: 150px;
+}
+
+#sanghai-para{
+  position: absolute;
+  top: 1520px;
+  left: 150px;
+}
+
+#sanghai-button{
+  position: absolute;
+  top: 1700px;
+  left: 150px;
+}
+
+/*================== India ============== */
+
+.main-india{
+  max-width: 300px;
+  position: absolute;
+  top: 2040px;
+  left: 150px;
+  transition: 0.25s all ease-in-out;
+}
+
+.main-india:hover {
+  transform: scale(1.25, 1.25);
+  cursor: pointer;
+}
+
+#india-title{
+  position: absolute;
+  top: 2100px;
+  left: 600px;
+}
+
+#india-para{
+  position: absolute;
+  top: 2140px;
+  left: 600px;
+}
+
+#india-button{
+  position: absolute;
+  top: 2320px;
+  left: 600px;
+}
+
+/* ========= SEARCH BAR SECTION =========*/
+
+.search-section {
+  width: 100%;
+  height: 500px;
+  background-color: #2B618C;
+  position: absolute;
+  top: 3920px;
+}
+
+.search-section-text {
+  position: absolute;
+  top: 160px;
+  left: 150px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+
+.search-bar-main {
+  position:absolute;
+  top: 240px;
+  left: 151px;
+  width: 480px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 8px 12px #0e0f0f;
+  font-size: 26px;
+  color: #2B618C;
+  font-family: Source Sans Pro, sans-serif;
+  padding-left: 10px;
+}
+
+#search-icon {
+  position: absolute;
+  top: 248px;
+  left: 600px;
+  width: 25px;
+}
+
+#icon-earth-main {
+  position: absolute;
+  top: 120px;
+  left: 900px;
+  width: 250px;
+}
+
+#icon-asia-main {
+  position: absolute;
+  top: 290px;
+  left: 840px;
+  width: 80px;
+}
+
+#icon-africa-main {
+  position: absolute;
+  top: 90px;
+  left: 770px;
+  width: 160px;
+}
+
+#icon-europe-main {
+  position: absolute;
+  top: 120px;
+  left: 1130px;
+  width: 70px;
+}
+
+#icon-australia-main {
+  position: absolute;
+  top: 320px;
+  left: 1090px;
+  width: 100px;
+}
+
+/* ========== MAIN LOW ============= */
+
+.main-low {
+  width: 100%;
+  position: absolute;
+  top: 4400px;
+  background-color: black;
+  height: 500px;
+}
+
+#get-started-main-low {
+  position: absolute;
+  top: 250px;
+  left: 40%;
+}
+
+#main-low-text {
+  position: absolute;
+  top: 120px;
+  left: 30%;
+  max-width: 500px;
+  line-height: 32px;
+}
+
+/* =========== main page footer ============== */
+
+.main-footer {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  top: 4800px;
+  background-color: black;
+}
+
+.footer-logo {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.footer-nav{
+  color: white;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 15px;
+}
+
+#footer-nav-set-1 {
+  position: absolute;
+  top: 60px;
+  left: 890px;
+}
+
+#footer-nav-set-2 {
+  position: absolute;
+  top: 60px;
+  left: 990px;
+}
+
+#footer-nav-set-3 {
+  position: absolute;
+  top: 60px;
+  left: 1114px;
+}
