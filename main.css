@@ -94,11 +94,14 @@ table {
 /* ========= PARALLAX CSS END ========== */
 
 #logo{
+  color: white;
+}
+
+.logo {
   position: absolute;
   top: 50px;
   left: 50px;
   font-size: 40px;
-  color: white;
   font-family: Source Sans Pro, sans-serif;
 }
 
@@ -568,6 +571,18 @@ table {
   color: white;
   font-family: Source Sans Pro, sans-serif;
   font-size: 15px;
+  border: none;
+  background-color: black;
+  text-decoration: none;
+}
+
+.footer-nav:hover{
+  color: #2B618C;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 15px;
+  border: none;
+  background-color: black;
+  text-decoration: none;
 }
 
 #footer-nav-set-1 {
@@ -586,4 +601,75 @@ table {
   position: absolute;
   top: 60px;
   left: 1114px;
+}
+
+/* ===================== NP =============== NP ================== FLIGHTS PAGE =================  NP ================  NP ====================== */
+
+.flights-background {
+  width: 100%;
+}
+
+#flights-backpack-logo {
+  color: black;
+}
+
+.top-nav {
+  position: absolute;
+  top: 65px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+#nav-item-1 {
+  left: 1000px;
+}
+
+#nav-item-2 {
+  left: 1130px;
+}
+
+.big-head-center {
+  position: absolute;
+  top: 230px;
+  left: 330px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 180px;
+  text-shadow: 2px 2px 2px #2F2629;
+}
+
+/* ============= FLIGHTS SEARCH BOX ============= */
+
+.flights-search-box {
+  position: absolute;
+  top: 600px;
+  left: 70px;
+  width: 1200px;
+  height: 140px;
+  background-color: #292627;
+  border-radius: 5px;
+  box-shadow: -2px -2px 12px black;
+}
+
+#flyto-text {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  color: grey;
+}
+
+.flights-input {
+  position: absolute;
+  top: 45px;
+  left: 60px;
+  height: 45px;
+  width: 350px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #E69367;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
 }
