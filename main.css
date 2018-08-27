@@ -607,6 +607,7 @@ table {
 
 .flights-background {
   width: 100%;
+  height: 612px;
 }
 
 #flights-backpack-logo {
@@ -630,7 +631,7 @@ table {
 
 .big-head-center {
   position: absolute;
-  top: 230px;
+  top: 200px;
   left: 330px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 180px;
@@ -641,8 +642,8 @@ table {
 
 .flights-search-box {
   position: absolute;
-  top: 600px;
-  left: 70px;
+  top: 460px;
+  left: 40px;
   width: 1200px;
   height: 140px;
   background-color: #292627;
