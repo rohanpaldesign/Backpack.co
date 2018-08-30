@@ -101,6 +101,7 @@ table {
   position: absolute;
   top: 50px;
   left: 50px;
+  font-weight: 700;
   font-size: 40px;
   font-family: Source Sans Pro, sans-serif;
 }
