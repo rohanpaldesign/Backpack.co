@@ -747,3 +747,98 @@ table {
 .sign-background{
   width: 100%;
 }
+
+.signup-head{
+  position: absolute;
+  top: 120px;
+  left: 45%;
+  margin-left: -50px; /* margin is -0.5 * dimension */
+  margin-top: -25px; 
+  color: #6B6262;
+  font-size: 42px;
+  font-family: sans-serif;
+  font-style: bold;
+}
+
+.signup-head1{
+  position: absolute;
+  top: 168px;
+  left: 42%;
+  margin-left: -50px; /* margin is -0.5 * dimension */
+  margin-top: -25px; 
+  color: blacks;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-style: bold;
+}
+
+#signup-input1{
+  position: absolute;
+  top: 205px;
+  left: 33%;
+  height: 45px;
+  width: 380px;
+  border: 0;
+  outline: 0px;
+  background: transparent;
+  border-bottom: 1px solid #A1A1A1;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
+
+#signup-input2{
+  position: absolute;
+  top: 265px;
+  left: 33%;
+  height: 45px;
+  width: 380px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #A1A1A1;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
+
+#signup-input3{
+  position: absolute;
+  top: 325px;
+  left: 33%;
+  height: 45px;
+  width: 380px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #A1A1A1;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
+
+.signup-pagebutton{
+  position: absolute;
+  top: 410px;
+  left: 42%;
+  width: 150px;
+  height: 50px;
+  background-color: #AAAAAA;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Source Sans Pro, sans-serif;
+  box-shadow: 0px 0px 0px #A1A1A1;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.signup-pagebutton:hover{
+  background-color: black;
+  box-shadow: 0px 2px 2px #1B1B1B;
+  color: #fff;
+  transform: translateY(-7px);
+}
