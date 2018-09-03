@@ -842,3 +842,29 @@ table {
   color: #fff;
   transform: translateY(-7px);
 }
+
+.already-account{
+position: absolute;
+top: 480px;
+left: 39%;
+font-family: sans-serif;
+color: #A1A1A1;
+}
+
+.signup-signin{
+  text-decoration: none;
+  color: #6B6262;
+  font-weight: bold;
+}
+
+.signup-head2{
+  position: absolute;
+  top: 168px;
+  left: 41%;
+  margin-left: -50px; /* margin is -0.5 * dimension */
+  margin-top: -25px; 
+  color: blacks;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-style: bold;
+}
