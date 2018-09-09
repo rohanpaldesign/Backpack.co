@@ -294,7 +294,8 @@ table {
 }
 
 .main-norway{
-  max-width: 300px;
+  width: 300px;
+  max-width: 100%;
   position: absolute;
   top: 200px;
   left: 900px;
@@ -778,6 +779,27 @@ table {
   font-style: bold;
 }
 
+@media screen and (max-width: 720px) {
+  .signup-head{
+    position: absolute;
+    left: 320px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .signup-head{
+    position: absolute;
+    left: 270px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signup-head {
+    position: absolute;
+    left: 42%;
+  }
+}
+
 .signup-head1{
   position: absolute;
   top: 168px;
@@ -788,6 +810,27 @@ table {
   font-size: 22px;
   font-family: sans-serif;
   font-style: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .signup-head1{
+    position: absolute;
+    left: 290px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .signup-head1{
+    position: absolute;
+    left: 240px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signup-head1 {
+    position: absolute;
+    left: 36%;
+  }
 }
 
 #signup-input1{
@@ -805,6 +848,28 @@ table {
   font-size: 22px;
 }
 
+@media screen and (max-width: 700px) {
+  #signup-input1{
+    position: absolute;
+    left: 220px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #signup-input1{
+    position: absolute;
+    left: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #signup-input1 {
+    position: absolute;
+    left: 18%;
+  }
+}
+
 #signup-input2{
   position: absolute;
   top: 265px;
@@ -820,6 +885,28 @@ table {
   font-size: 22px;
 }
 
+@media screen and (max-width: 700px) {
+  #signup-input2{
+    position: absolute;
+    left: 220px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #signup-input2{
+    position: absolute;
+    left: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #signup-input2 {
+    position: absolute;
+    left: 18%;
+  }
+}
+
 #signup-input3{
   position: absolute;
   top: 325px;
@@ -833,6 +920,28 @@ table {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 22px;
+}
+
+@media screen and (max-width: 700px) {
+  #signup-input3{
+    position: absolute;
+    left: 220px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #signup-input3 {
+    position: absolute;
+    left: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #signup-input3 {
+    position: absolute;
+    left: 18%;
+  }
 }
 
 .signup-pagebutton{
@@ -868,6 +977,29 @@ left: 39%;
 font-family: sans-serif;
 color: #A1A1A1;
 }
+
+@media screen and (max-width: 700px) {
+  .already-account {
+    position: absolute;
+    left: 250px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .already-account {
+    position: absolute;
+    left: 210px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .already-account {
+    position: absolute;
+    left: 32%;
+  }
+}
+
+
 
 .signup-signin{
   text-decoration: none;
