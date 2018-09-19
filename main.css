@@ -106,6 +106,14 @@ table {
   font-family: Source Sans Pro, sans-serif;
 }
 
+@media screen and (max-width: 550px) {
+  .logo{
+    position: absolute;
+    left: 12%;
+    font-size: 28px;
+  }
+}
+
 .sign-up-button{
   position: absolute;
   top: 50px;
@@ -123,6 +131,14 @@ table {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (max-width: 550px) {
+  .sign-up-button{
+    position: absolute;
+    top: 40px;
+    width: 120px;
+    }
 }
 
 /*BUTTON HOVER*/
@@ -741,31 +757,15 @@ table {
 
 /* ===================== NP =============== NP ================== SIGN UP PAGE =================  NP ================  NP ====================== */
 
-.sign-back{
-  background-color: black;
-}
-
 .sign-background{
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+  background-image: url(images/sign-background.jpg);
+  height: 610px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  .sign-background {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
 
 .signup-head{
   position: absolute;
@@ -1017,4 +1017,103 @@ color: #A1A1A1;
   font-size: 22px;
   font-family: sans-serif;
   font-style: bold;
+}
+
+/* ============= NP =============== NP ================= HELP CENTER =========== NP ================ NP =============== */
+
+.help-page{
+  overflow-x: hidden;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.side-head{
+  position: relative;
+  top: 20px;
+  left: 10%;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+
+.min-head-001{
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 44px;
+  color: #6B6262;
+  font-weight: 500;
+}
+
+#min-head-1{
+  position: relative;
+  top: 55px;
+  left: 350px;
+}
+
+.head-write{
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#head-write-1{
+  position: relative;
+  top: 120px;
+  left: 12%;
+  max-width: 50%;
+}
+
+#head-write-2{
+  position: relative;
+  top: 370px;
+  left: 12%;  
+  color: #510C1F;
+}
+
+#messageus{
+  position: relative;
+  top: 150px;
+  left: 12%;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #2B618C;
+}
+
+.input-style{
+  height: 45px;
+  width: 420px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #A1A1A1;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
+
+#input-1{
+  position: relative;
+  top: 175px;
+  left: 12%;
+}
+
+#input-2{
+  position: absolute;
+  top: 380px;
+  left: 12%;
+}
+
+#input-3{
+  position: absolute;
+  height: 100px;;
+  top: 435px;
+  left: 12%;
+}
+
+#help-img{
+  position: absolute;
+  top: 280px;
+  left: 900px;
+  width: 200px;
 }
