@@ -160,6 +160,13 @@ table {
   font-size: 25px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 550px) {
+  .head-paragraph{
+    max-width: 75%;
+  }
+}
+
 #head-blue{
   position: absolute;
   top: 430px;
@@ -171,6 +178,12 @@ table {
   font-family: Source Sans Pro, sans-serif;
   color: #2B618C;
   margin-top: 8px;
+}
+
+@media screen and (max-width: 550px) {
+  .head-blue{
+    display: none;
+  }
 }
 
 /*==================
