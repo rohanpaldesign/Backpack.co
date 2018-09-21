@@ -546,6 +546,12 @@ table {
 
 /* ========= SEARCH BAR SECTION =========*/
 
+@media screen and (max-width: 550px) {
+  .search-section-main-figure{
+    display: none;
+  }
+}
+
 .search-section {
   width: 100%;
   height: 500px;
@@ -664,6 +670,14 @@ table {
   color: white;
 }
 
+@media screen and (max-width:550px) {
+  .footer-logo{
+    position: absolute;
+    left: 8%;
+    font-size: 16px;
+  }
+}
+
 .footer-nav{
   color: white;
   font-family: Source Sans Pro, sans-serif;
@@ -688,10 +702,28 @@ table {
   left: 890px;
 }
 
+@media screen and (max-width:550px) {
+  #footer-nav-set-1{
+    position: absolute;
+    top: 62px;
+    left: 45%;
+    font-size: 12px;
+  }
+}
+
 #footer-nav-set-2 {
   position: absolute;
   top: 60px;
   left: 990px;
+}
+
+@media screen and (max-width:550px) {
+  #footer-nav-set-2{
+    position: absolute;
+    top: 62px;
+    left: 60%;
+    font-size: 12px;
+  }
 }
 
 #footer-nav-set-3 {
@@ -699,6 +731,16 @@ table {
   top: 60px;
   left: 1114px;
 }
+
+@media screen and (max-width:550px) {
+  #footer-nav-set-3{
+    position: absolute;
+    top: 62px;
+    left: 80%;
+    font-size: 12px;
+  }
+}
+
 
 /* ===================== NP =============== NP ================== FLIGHTS PAGE =================  NP ================  NP ====================== */
 
